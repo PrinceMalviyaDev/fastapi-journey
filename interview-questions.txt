@@ -33,3 +33,12 @@ Q) How to do validation in pydantic?
 
 
 Q) What is nested model?
+
+
+Q) What are CRUD Operations?
+
+
+Q) What is the difference between GET, POST, DELETE?
+
+
+Q) What is the difference between PUT and PATCH?
