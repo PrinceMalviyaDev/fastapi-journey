@@ -19,3 +19,17 @@ Q) What is Pydantic?
 
 Q) What is the difference between using Dict and Pydantic?
 Ans) Dict eliminates validation factor whereas Pydantic is used for Validation. Dist is flexible whereas the pydantic is structured. Error handling should be done manually in Dict whereas pydantic does it automatically.
+
+Q) What is pydantic model?
+Ans) It is a schema structure that decides the format of the data. It defines what and how many fields will be there and what are their types.
+
+Q) What is Pydantic BaseModel?
+
+
+Q) What is schema in Pydantic?
+
+
+Q) How to do validation in pydantic?
+
+
+Q) What is nested model?
