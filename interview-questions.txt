@@ -1,0 +1,11 @@
+Q) What are Path Parameters?
+
+
+Q) What are Query Parameters?
+
+
+Q) What is the difference between both?
+
+
+Q) Real world use cases of both?
+Ans) Searching, Filtering and Pagination.
