@@ -42,3 +42,9 @@ Q) What is the difference between GET, POST, DELETE?
 
 
 Q) What is the difference between PUT and PATCH?
+
+
+Q) Path + Query + Request Body, why to use all the three together?
+
+
+Q) How can we use them in real API?
