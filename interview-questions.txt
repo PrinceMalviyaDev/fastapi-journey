@@ -63,3 +63,12 @@ Q) How FastAPI does response validation?
 
 
 Q) What is the difference between Response Model and Request Model?
+
+
+Q) What are HTTP status codes?
+
+Q) What is the difference between status 200 and 201?
+
+Q) What are HTTPException in FastAPI?
+
+Q) What is the benefit of Custom Response creation.
