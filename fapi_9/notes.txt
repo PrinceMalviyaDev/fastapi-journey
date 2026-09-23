@@ -1,0 +1,6 @@
+Respose Models:
+
+    Response validation
+    Hide sensitive data
+    Output formatting
+

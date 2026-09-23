@@ -48,3 +48,18 @@ Q) Path + Query + Request Body, why to use all the three together?
 
 
 Q) How can we use them in real API?
+
+
+Q) What is Response Models
+
+
+Q) Why Response Model is used?
+
+
+Q) How would you hide the sensitive data from going into the frontend?
+
+
+Q) How FastAPI does response validation?
+
+
+Q) What is the difference between Response Model and Request Model?
