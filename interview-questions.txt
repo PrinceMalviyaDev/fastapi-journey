@@ -81,3 +81,21 @@ Q) What does Depends(method) do?
 
 
 Q) What is the role of Dependency in Auth System?
+
+
+Q) What is a middleware?
+
+
+Q) What is the use of Middleware?
+
+
+Q) What is call_next?
+
+
+Q) Why is middleware asynchronous?
+
+
+Q) What is the difference between Dependency Injection and Middleware?
+
+
+Q) What are the real world uses of middleware?
