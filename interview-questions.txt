@@ -72,3 +72,12 @@ Q) What is the difference between status 200 and 201?
 Q) What are HTTPException in FastAPI?
 
 Q) What is the benefit of Custom Response creation.
+
+
+Q) What is Dependency Injection in FastAPI?
+
+
+Q) What does Depends(method) do?
+
+
+Q) What is the role of Dependency in Auth System?
