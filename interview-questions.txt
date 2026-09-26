@@ -123,3 +123,30 @@ Q) Why to use filters?
 
 
 Q) What is the difference between Commit and Refresh?
+
+
+Q) What is Asynchronous programming?
+
+
+Q) Explain async/await?
+
+
+Q) Difference between Synchronous and Asynchronous?
+
+
+Q) Why FastAPI uses asynchronous programming?
+
+
+Q) What is Authentication?
+
+
+Q) What is JWT?
+
+
+Q) What is Token based authentication?
+
+
+Q) How many parts does JWT Token has?
+
+
+Q) Why is Token Expiry required?
