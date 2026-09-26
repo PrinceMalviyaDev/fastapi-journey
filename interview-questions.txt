@@ -99,3 +99,27 @@ Q) What is the difference between Dependency Injection and Middleware?
 
 
 Q) What are the real world uses of middleware?
+
+
+Q) What is SQLite?
+
+
+Q) What is SQLAlchemy?
+
+
+Q) What is an ORM?
+
+
+Q) What are the differences between ORM and Direct SQL?
+
+
+Q) Which one is best - SQLAlchemy or SQLite?
+
+
+Q) What is the flow of SQLAlchemy CRUD Operations?
+
+
+Q) Why to use filters?
+
+
+Q) What is the difference between Commit and Refresh?
