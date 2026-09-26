@@ -1,6 +1,6 @@
 # SQLALchemy needs to be installed - pip install sqlalchemy
 
-from sqlalchemy import create_engine, Column, Integer, String
+from sqlalchemy import create_engine, Column, Integer, String, Boolean
 from sqlalchemy.orm import sessionmaker, declarative_base, Session
 from fastapi import FastAPI, Depends
 
