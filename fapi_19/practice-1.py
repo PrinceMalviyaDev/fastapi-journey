@@ -1,11 +1,10 @@
 # pip install python-jose "passlib[bcrypt]" python-multipart
 
 from fastapi import FastAPI, Depends, HTTPException
-from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from jose import jwt, JWTError
+from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from datetime import datetime, timezone, timedelta
 from passlib.context import CryptContext
-
 
 app = FastAPI()
 
@@ -14,17 +13,16 @@ SECRET_KEY = "mysecret"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRY_MINUTES = 30
 
-# Password Hashing setup
+# Password Hashing Setup
 pwd_context = CryptContext(schemes = ["bcrypt"], deprecated = "auto")
 
 # OAuth Setup
 oauth2_schema = OAuth2PasswordBearer(tokenUrl = "login")
 
-# Dummy User DB
 fake_user_db = {
     "admin" : {
-        "username": "admin",
-        "hashed_password": pwd_context.hash("1234")
+        "username" : "admin",
+        "hashed_password" : pwd_context.hash("1234")
     }
 }
 
@@ -43,8 +41,9 @@ def create_token(data: dict):
     to_encode.update({
         "exp": expiry
     })
-
+    
     token = jwt.encode(to_encode, SECRET_KEY, algorithm = ALGORITHM)
+
     return token
 
 # Login API (OAuth2 Form)
@@ -52,7 +51,7 @@ def create_token(data: dict):
 def login(form_data: OAuth2PasswordRequestForm = Depends()):
     user = fake_user_db.get(form_data.username)
     if not user or not verify_password(form_data.password, user["hashed_password"]):
-        raise HTTPException(
+        raise HTTPExceptions(
             status_code = 400,
             detail = "Invalid Username or Password"
         )
@@ -60,31 +59,33 @@ def login(form_data: OAuth2PasswordRequestForm = Depends()):
     access_token = create_token({"sub": form_data.username})
 
     return {
-        "access_token": access_token,
-        "token_type": "bearer"
+        "access_token" : access_token,
+        "token_type" : "bearer"
     }
 
 # Verify Token
-def verify_token(token:str = Depends(oauth2_schema)):
-    try:
+def verify_token(token: str = Depends(oauth2_schema)):
+    try: 
         payload = jwt.decode(token, SECRET_KEY, algorithms = [ALGORITHM])
+
         username: str = payload.get("sub")
+
         if username is None:
-            raise HTTPException(
-                status_code=401,
-                detail="Invalid token"
+            raise HTTPExceptions(
+                status_code = 401,
+                detail = "Invalid Token"
             )
         return username
     except jwt.JWTError:
-        raise HTTPException(
-            status_code=401,
-            detail="Invalid token"
+        raise HTTPExceptions(
+            status_code = 401,
+            detail = "Invalid Token"
         )
 
-# Protected Route
+# Secured Route
 @app.get("/protected")
 def protected_route(username: str = Depends(verify_token)):
     return {
-        "message": "Hello, protected resource accessed",
+        "message": "Protected resource accessed",
         "data": username
     }
