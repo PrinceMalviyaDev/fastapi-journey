@@ -140,7 +140,7 @@ Q) Why FastAPI uses asynchronous programming?
 Q) What is Authentication?
 
 
-Q) What is JWT?
+Q) What is JWT and what are its uses?
 
 
 Q) What is Token based authentication?
@@ -150,3 +150,22 @@ Q) How many parts does JWT Token has?
 
 
 Q) Why is Token Expiry required?
+
+
+Q) What is OAuth2?
+
+
+Q) Why is Password Hashing used?
+
+
+Q) How to check Token Validation?
+
+
+Q) What is OAuth2PasswordBearer?
+
+
+Q) How can you perform file upload in FastAPI?
+
+
+Q) What are staticfiles?
+Ans) StaticFiles are the utility files which needs to be sent to the frontend from server.
