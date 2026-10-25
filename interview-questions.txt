@@ -190,3 +190,15 @@ Q) what is os.getenv?
 
 
 Q) Why should we use .env? why is it secure?
+
+
+Q) What is API integgration?
+
+
+Q) What is the use of requests library?
+
+
+Q) Why do we use .json() ?
+
+
+Q) Why do we need third part api service?
