@@ -180,4 +180,13 @@ Q) Why CORS Error occurs?
 Q) How to Enable CORS in FastAPI?
 
 
-Q) 
+Q) What are Environment Variables?
+
+
+Q) What is the use of .env file?
+
+
+Q) what is os.getenv?
+
+
+Q) Why should we use .env? why is it secure?
