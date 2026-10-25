@@ -169,3 +169,15 @@ Q) How can you perform file upload in FastAPI?
 
 Q) What are staticfiles?
 Ans) StaticFiles are the utility files which needs to be sent to the frontend from server.
+
+
+Q) What is CORS?
+
+
+Q) Why CORS Error occurs?
+
+
+Q) How to Enable CORS in FastAPI?
+
+
+Q) 
