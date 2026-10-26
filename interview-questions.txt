@@ -223,3 +223,9 @@ Q) What is caching?Why do we use it? How can you achieve it in FastAPI?
 
 
 Q) How to perform Time-to-Live(TTL) configuration?
+
+
+Q) What is Rate limitting? Why it is used?
+
+
+Q) What is 429 Status Code?
