@@ -211,3 +211,9 @@ Q) what is the role of beautifulsoup?
 
 
 Q) What is the role of "requests" library?
+
+
+Q) What is Pagination? And why it is used?
+
+
+Q) Pagination Logic?
