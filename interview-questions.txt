@@ -202,3 +202,12 @@ Q) Why do we use .json() ?
 
 
 Q) Why do we need third part api service?
+
+
+Q) What is web crawling?
+
+
+Q) what is the role of beautifulsoup?
+
+
+Q) What is the role of "requests" library?
