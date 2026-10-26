@@ -217,3 +217,9 @@ Q) What is Pagination? And why it is used?
 
 
 Q) Pagination Logic?
+
+
+Q) What is caching?Why do we use it? How can you achieve it in FastAPI?
+
+
+Q) How to perform Time-to-Live(TTL) configuration?
